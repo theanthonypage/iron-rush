@@ -127,20 +127,20 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 }
 
 #tooplate-body-wrapper {
-	max-width: 100%;
+	width: 100%;
 	background: url(../images/tooplate-header.jpg) top center no-repeat;
 }
 
 #tooplate-wrapper {
-	max-width: 960px;
+	width: 960px;
 	padding: 0 10px;
 	margin: 0 auto;
 	background: url(../images/tooplate-header.jpg) top center no-repeat;
 }
 
 #tooplate-top-bar {
-	max-width: 960px;
-	max-height: 40px;
+	width: 960px;
+	height: 40px;
 	padding: 5px 0;
 }
 
@@ -163,8 +163,8 @@ a.facebook { background: url(../images/facebook.png) center right no-repeat }
 a.social-btn:hover { color: #bd9213 }
 
 #tooplate-header {
-	max-width: 960px;
-	max-height: 80px;
+	width: 960px;
+	height: 80px;
 	padding: 10px 0;
 }
 
@@ -179,8 +179,8 @@ a.social-btn:hover { color: #bd9213 }
 
 #site-title h1 a {
 	display: block;
-	max-width: 190px;
-	max-height: 40px;
+	width: 190px;
+	height: 40px;
 	color: #fff;
 	text-indent: -10000px;
 	background: url(../images/tooplate-logo.png) no-repeat top left;
@@ -190,8 +190,8 @@ a.social-btn:hover { color: #bd9213 }
 
 #tooplate-menu {
 	float: right;
-	max-width: 625px;
-	max-height: 65px;
+	width: 625px;
+	height: 65px;
 	margin: 0 auto;
 }
 
@@ -210,8 +210,8 @@ a.social-btn:hover { color: #bd9213 }
 #tooplate-menu ul li a {
 	float: left;
 	display: block;
-	max-width: 125px;
-	max-height: 35px;
+	width: 125px;
+	height: 35px;
 	padding: 30px 0 0 0;
 	font-size: 14px;
 	color: #bd9213;
@@ -233,8 +233,8 @@ a.social-btn:hover { color: #bd9213 }
 
 #tooplate-middle {
 	clear: both;
-	max-width: 900px;
-	max-height: 240px;
+	width: 900px;
+	height: 240px;
 	padding: 37px 30px 51px 30px;
 	overflow: hidden;
 	background: url(../images/tooplate-middle.png) no-repeat;
@@ -242,8 +242,8 @@ a.social-btn:hover { color: #bd9213 }
 
 #tooplate-middle-subpage {
 	clear: both;
-	max-width: 960px;
-	max-height: 120px;
+	width: 960px;
+	height: 120px;
 	padding: 15px 0;
 	margin-bottom: 20px;
 	background: url(../images/tooplate-divider.jpg) top repeat-x;
@@ -260,24 +260,24 @@ a.social-btn:hover { color: #bd9213 }
 
 #tooplate-main {
 	clear: both;
-	max-width: 960px;
+	width: 960px;
 	padding: 20px 0;
 }
 
-.col-w960 { max-width: 960px; margin-bottom: 40px }
-.col-w600 { max-width: 600px }
-.col-w450 { max-width: 450px }
-.col-w300 { max-width: 300px }
-.col-w200 { max-width: 200px; margin-right: 50px; }
-.col-allw300 { max-width: 300px; float: left; margin-right: 30px }
+.col-w960 { width: 960px; margin-bottom: 40px }
+.col-w600 { width: 600px }
+.col-w450 { width: 450px }
+.col-w300 { width: 300px }
+.col-w200 { width: 200px; margin-right: 50px; }
+.col-allw300 { width: 300px; float: left; margin-right: 30px }
 .col-last { margin: 0 }
 
 .fp-lp-box {
 	display: block;
 	clear: both;
 	position: relative;
-	max-width: 290px;
-	max-height: 140px;
+	width: 290px;
+	height: 140px;
 	padding: 4px;
 	border: 1px solid #ccc;
 	margin-bottom: 10px;
@@ -287,8 +287,8 @@ a.social-btn:hover { color: #bd9213 }
 	position: absolute;
 	right: 0;
 	bottom: 10px;
-	max-width: 100px;
-	max-height: 24px;
+	width: 100px;
+	height: 24px;
 	text-align: center;
 	background: url(../images/tooplate-lp-btn.png);
 }
@@ -318,8 +318,8 @@ a.social-btn:hover { color: #bd9213 }
 
 .post-box img {
 	float: right;
-	max-width: 160px;
-	max-height: 160px;
+	width: 160px;
+	height: 160px;
 	padding: 4px;
 	border: 1px solid #ccc;
 	margin-left: 30px;
@@ -330,14 +330,14 @@ a.social-btn:hover { color: #bd9213 }
 }
 
 #map img {
-	max-width: 300px;
-	max-height: 190px;
+	width: 300px;
+	height: 190px;
 	border: 1px solid #999;
 	padding: 5px;
 }
 
 #contact-form {
-	max-width: 400px;
+	width: 400px;
 	padding: 0px;
 }
 
@@ -347,7 +347,7 @@ a.social-btn:hover { color: #bd9213 }
 }
 
 #contact-form form .input-field {
-	max-width: 300px;
+	width: 300px;
 	padding: 5px;
 	background: #fff;
 	border: 1px solid #ccc;
@@ -359,15 +359,15 @@ a.social-btn:hover { color: #bd9213 }
 
 #contact-form form label {
 	display: block;
-	max-width: 100px;
+	width: 100px;
 	margin-right: 10px;
 	font-size: 14px;
 	color: #333;
 }
 
 #contact-form form textarea {
-	max-width: 388px;
-	max-height: 200px;
+	width: 388px;
+	height: 200px;
 	background: #fff;
 	border: 1px solid #ccc;
 	padding: 5px;
@@ -401,7 +401,7 @@ a.social-btn:hover { color: #bd9213 }
 	position: relative;
 	display: block;
 	float: left;
-	max-width: 280px;
+	width: 280px;
 	margin: 0 30px 30px 0;
 	padding: 8px;
 	border: 1px solid #ccc;
@@ -420,8 +420,8 @@ a.social-btn:hover { color: #bd9213 }
 	position: absolute;
 	right: 0;
 	bottom: 10px;
-	max-width: 100px;
-	max-height: 24px;
+	width: 100px;
+	height: 24px;
 	text-align: center;
 	background: url(../images/tooplate-lp-btn.png);
 }
@@ -431,24 +431,24 @@ a.social-btn:hover { color: #bd9213 }
 }
 
 #tooplate-footer-wrapper {
-	max-width: 100%;
+	width: 100%;
 	background: #1f1b1a;
 }
 
 #tooplate-footer {
-	max-width: 960px;
+	width: 960px;
 	padding: 30px 10px;
 	color: #8b773a;
 	margin: 0 auto;
 }
 
 #tooplate-copyright-wrapper {
-	max-width: 100%;
+	width: 100%;
 	background: #000000;
 }
 
 #tooplate-copyright {
-	max-width: 960px;
+	width: 960px;
 	padding: 10px;
 	color: #39302b;
 	margin: 0 auto;
